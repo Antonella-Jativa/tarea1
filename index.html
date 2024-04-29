@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!--saber que es un documento html-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title> Mi Primera Web</title> 
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            img {
+                width: 100px; /*ancho*/
+                border-radius: 50px; 
+                margin-right: 10px;
+                float: left;
+            }
+
+            p.username{
+                font-weight: bold; /*bold=negrita*/
+                float: left;
+                margin-top: 0px; 
+                margin-bottom: 0px;
+            }
+
+            p.username + p{
+                display: inline-block;
+                margin-left: 10px;
+                margin: 0px 0px 0px 10px;
+                color: #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <img alt="" src="imagen.jpg" />
+        <p class="username"> Anto Jativa </p>
+        <p> @antojat </p>
+        <p> La carerra de Tecnologia en el desarrollo de software es muy precisa, eficiente, etc. 
+            y es por eso que la escogi, tambien para aprender mucho mas sobre la programacion, desarrollo web, etc   </p>
+    </body>
+</html>
